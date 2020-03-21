@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+.container{
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+.top-wrapper{
+  padding-top:180px;
+  padding-bottom: 100px;
+  background-image:url(https://img.deusm.com/informationweek/2016/08/1326694/Coding_Henrik5000_iStock_55176760_MEDIUM.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.top-wrapper h1{
+  opacity:0.7;
+  font-size:50px;
+  letter-spacing:10px;
+  margin-bottom:10px;
+  color: chartreuse;
+  
+}
+.top-wrapper p{
+  
+  margin-bottom:3px;
+  color:yellow;
+  font-size: 35px;
+  
+}
+.header {
+  background-color:black;
+  height: 90px;
+}
+.header-logo{
+  font-size: 55px;
+  float:left;
+  color: white;
+  letter-spacing: 5px;
+  padding:20px 33px;
+}
+
+li{
+  list-style: none;
+  float: left;
+  color: wheat;
+  font-size:25px;
+  padding-top:32px;
+  padding-bottom: 10px;
+}
+li:hover{
+  color:palevioletred;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contact-submit{
+  background-color:red;
+  color:white;
+  text-align: center;
+}
+.contact-submit:hover{
+  color: black;
+}
+input , textarea{
+  width:400px;
+  margin-top: 10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size: 18px;
+  border:1px solid violet;
+  
+}
+.contact-form{
+  text-align: center;
+}
+.footer{
+  
+  background-color: #2f5167;
+ color: #fff;
+ height: 120px;
+ padding:40px;
+  }
+.footer-logo{
+  float:left;
+  font-size: 35px;
+  color:white;
+}
+.footer-list{
+  float:right;
+  padding-bottom: 20px;
+}
+.footer-list li{
+  padding-bottom: 20px; 
+  padding-right: 20px;
+  color:rosybrown;
+
+  
+
+}
+.footer-list li:hover{
+color:white;
+
+}
+
+.lesson{
+  width: 30%;
+  float:left;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+.lesson-icon {
+  position:relative;
+}
+
+
+/* Add CSS for <p> tags inside lesson-icon */
+.lesson-icon p{
+  position: absolute;
+  top: 90px;
+  width:100%;
+  color:white;
+}
+.txt-contents{
+  width:80%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:15px;
+  color:#b3aeb5;
+}
